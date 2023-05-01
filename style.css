@@ -41,6 +41,6 @@ body > * {
 }
 
 .navItem + .navItem{
-    border-left: solid 3px black;
+	border-left: solid 3px black;
 	border-radius: unset;
 }
