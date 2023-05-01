@@ -1,0 +1,19 @@
+body {
+	width: 80vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	border: solid black 3px;
+	margin: 5vh auto;
+}
+
+body > * {
+	padding: 1%;
+}
+
+#logo {
+	max-height: 25vh;
+	width: auto;
+	height: auto;
+}
