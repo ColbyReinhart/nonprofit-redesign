@@ -19,13 +19,11 @@ body > * {
 }
 
 .navItem {
-	margin: 10px;
-	padding: 10px;
-	font-size: 3em;
-	border: solid 3px rgb(222, 144, 0);;
+	margin: 10px 0;
+	padding: 0 20px;
+	font-size: 2em;
 	border-radius: 10px;
-	color: rgb(222, 144, 0);;
-	text-decoration: unset;
+	color: black;
 }
 
 #logo {
@@ -39,5 +37,10 @@ body > * {
 	border-top: solid 3px rgb(222, 144, 0);
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
+}
+
+.navItem + .navItem{
+    border-left: solid 3px black;
+	border-radius: unset;
 }
