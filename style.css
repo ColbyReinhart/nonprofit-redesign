@@ -25,6 +25,7 @@ main > img {
 	width: 100%;
 	height: auto;
 	border: solid 3px rgb(222, 144, 0);
+	margin: 5px 0;
 }
 
 footer {
