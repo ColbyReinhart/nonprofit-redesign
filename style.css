@@ -21,6 +21,10 @@ header, main {
 	align-items: flex-start;
 }
 
+main {
+	font-size: 1.25rem;
+}
+
 main > img {
 	width: 100%;
 	height: auto;
@@ -35,17 +39,13 @@ footer {
 }
 
 footer p {
-	font-size: 1em;
-}
-
-p {
-	font-size: 1.25em;
+	font-size: 1rem;
 }
 
 .navItem {
 	margin: 10px 0;
 	padding: 0 20px;
-	font-size: 1.75em;
+	font-size: 1.75rem;
 	border-radius: 10px;
 	color: black;
 }
@@ -61,7 +61,7 @@ p {
 	height: auto;
 	/* border: solid 3px rgb(222, 144, 0); */
 	background-color: rgb(155, 180, 240);
-	border-radius: 1em;
+	border-radius: 1rem;
 }
 
 #logoContainer {
@@ -98,4 +98,11 @@ p {
 	height: 3in;
 	margin: 5% 0;
 	border: solid 3px rgb(222, 144, 0);
+}
+
+#directorImg {
+	width: auto;
+	height: 30vh;
+	float: left;
+	margin: 1rem;
 }
