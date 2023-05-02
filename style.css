@@ -62,7 +62,15 @@ footer p {
 	background-color: rgb(155, 180, 240);
 	border-radius: 1rem;
 	margin: 2%;
+}
+
+.bulletinItem h3 {
 	text-align: center;
+}
+
+.bulletinLink {
+	display: block;
+	margin: 1rem;
 }
 
 .client {
