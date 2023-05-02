@@ -1,8 +1,13 @@
 
+/* Setup */
+
 * {
 	box-sizing: border-box;
-	/* border: solid black 1px; */
+	/* Uncomment the line below for debugging */
+	/* border: solid black 1px !important; */
 }
+
+/* Tag Styles */
 
 body {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -38,27 +43,23 @@ footer {
 	flex-direction: column;
 }
 
-footer p {
-	font-size: 1rem;
-}
+/* Class Styles */
 
 .navItem {
 	margin: 10px 0;
 	padding: 0 20px;
 	font-size: 1.75rem;
-	border-radius: 10px;
 	color: black;
 }
 
+/* This neat hack will target the second navItem sibling onwards */
 .navItem + .navItem{
 	border-left: solid 3px black;
-	border-radius: unset;
 }
 
 .bulletinItem {
 	width: 45%;
 	padding: 2%;
-	height: auto;
 	background-color: rgb(155, 180, 240);
 	border-radius: 1rem;
 	margin: 2%;
@@ -90,8 +91,9 @@ footer p {
 
 .clientShowcase > * {
 	width: 48%;
-	height: auto;
 }
+
+/* ID Styles */
 
 #logoContainer {
 	width: 100%;
@@ -104,7 +106,6 @@ footer p {
 	max-height: 20vh;
 	width: auto;
 	height: auto;
-	margin: 0 auto;
 }
 
 #navbar {
@@ -124,7 +125,7 @@ footer p {
 
 #mapEmbed {
 	width: 100%;
-	height: 3in;
+	height: 5in;
 	margin: 5% 0;
 	border: solid 3px rgb(222, 144, 0);
 }
