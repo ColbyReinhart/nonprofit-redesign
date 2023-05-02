@@ -61,6 +61,8 @@ footer p {
 	height: auto;
 	background-color: rgb(155, 180, 240);
 	border-radius: 1rem;
+	margin: 2%;
+	text-align: center;
 }
 
 .client {
